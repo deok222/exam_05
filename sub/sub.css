@@ -8,12 +8,9 @@
 }
 
 html {
+  color: #fff;
   font-family: "Manrope", sans-serif;
   font-size: 10px;
-}
-
-body {
-  color: #fff;
 }
 
 ul {
@@ -89,7 +86,6 @@ header::before {
 
 .logo img {
   width: 30px;
-  height: 40px;
 }
 
 .logo p {
@@ -195,6 +191,7 @@ header::before {
   display: flex;
   align-items: center;
   gap: 130px;
+  justify-content: space-between;
 }
 
 .sub3_info p,
@@ -232,15 +229,24 @@ header::before {
 
 .sub5 .next {
   text-align: center;
-  position: relative;
 }
 
-.sub5 .next::before {
+.sub5 .next b {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.sub5 .next b::before {
   content: "";
-  border-bottom: 2px solid #c4c4c4;
   position: absolute;
-  bottom: -10px;
-  width: 160px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
 }
 
 /* footer */
@@ -249,7 +255,7 @@ footer {
   padding: 48px 0;
 }
 
-.copyright {
+footer .inner {
   display: flex;
   align-items: center;
   justify-content: space-between;

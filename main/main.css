@@ -223,23 +223,13 @@ button a i {
   cursor: pointer;
 }
 
-/* cards2 */
-.cards2_wrapper {
-  margin-bottom: 240px;
-}
-
-.cards2 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  align-items: center;
-}
-
-/* cards3 */
+/* cards2,3 */
+.cards2_wrapper,
 .cards3_wrapper {
   margin-bottom: 240px;
 }
 
+.cards2,
 .cards3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
